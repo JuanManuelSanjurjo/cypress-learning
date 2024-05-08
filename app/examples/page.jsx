@@ -40,7 +40,7 @@ export default function ExamplesPage(){
             </h1>
             <ItemsAccordion items={items} />
             <div className={styles.postButton}>
-            <PostButton className={styles.postButton} />
+            <PostButton  className={styles.postButton} />
             </div>
             <GrudgeList />
         </main>

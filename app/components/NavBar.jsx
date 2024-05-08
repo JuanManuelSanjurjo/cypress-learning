@@ -35,8 +35,8 @@ export default function NavBar(){
     return (
         <ul className="nav-bar">
             {
-                navItems.map((item)=> (
-                    <NavItem key={item.label} label={item.label} path={item.path} />
+                navItems.map((item, i)=> (
+                    <NavItem dataTest={`navItem${i}`} key={item.label} label={item.label} path={item.path} />
                 ))
             }
         </ul>
